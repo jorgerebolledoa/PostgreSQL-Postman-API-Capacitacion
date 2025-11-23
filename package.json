@@ -1,0 +1,27 @@
+{
+  "name": "postgresql-postman-api-capacitacion",
+  "version": "1.0.0",
+  "description": "Aprender a: 1. Crear y manipular datos en PostgreSQL usando SQL. 2. Exponer esos datos a través de una API con Node.js + Express. 3. Probar los endpoints usando Postman.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgerebolledoa/PostgreSQL-Postman-API-Capacitacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgerebolledoa/PostgreSQL-Postman-API-Capacitacion/issues"
+  },
+  "homepage": "https://github.com/jorgerebolledoa/PostgreSQL-Postman-API-Capacitacion#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
